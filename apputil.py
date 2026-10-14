@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import os
 
 
 class Genius:
@@ -57,4 +58,4 @@ class Genius:
         df = pd.DataFrame(artists)
 
         return df
-    
+        
